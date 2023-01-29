@@ -2,7 +2,8 @@
 
  #Productivity #ios development #Mobile development    
 
-![Screenshot_2023-01-28-11-25-52-82_f9ee0578fe1cc94de7482bd41accb329_2](Screenshot_2023-01-28-11-25-52-82_f9ee0578fe1cc94de7482bd41accb329_2.jpg)
+![Screenshot_2023-01-28-11-25-52-82_f9ee0578fe1cc94de7482bd41accb329_2](https://user-images.githubusercontent.com/93249038/215304690-a4d3e4c5-680e-4a07-85b4-912fd81e1f5d.jpg)
+
 
 # TOPICS COVERED:
 1) IGListKit (YouTube & insta component kit)
@@ -43,7 +44,7 @@
 10) Now isntallation of materila design with cocoa-pods by using the cmds       
     pod 'MaterialComponents/Dialogs' install it and be able to use that dialog     right away. also use pod 'MaterialComponents/Buttons' and make sure everything is added on the target make a delete btn looks very nice and import the materials btn changes into a MVC btn type .so for dialog we already have an alert controller setup we copy that code and paste it to create an alert allow the user to input some text. There is a property called as accessory view we use to input a text input field. so lemme create that get a setup .So I be able to type in the text filed in the 2D view controller I just create an array of strings to do this and the initailiser will initailse it to an empty array
     # NOTE: working of IG LIST:
-     iT is very immutable we can create a new copy of the data and send it to an IG lISt kit so it will update the items
+     IG List is very immutable we can create a new copy of the data and send it to an IG lISt kit so it will update the items
 
   Coming back, we add some textfiled.text to the new array and call update on self for the upadte we can simply call an adapter which performs update and add it to the initializer . we're to create  a breakpoint here adds a new item .Here the identifier is todo's .everytime its asking for the objects its just returns new items that will trigger the framework to update the section then it would populate new items under the section controller for agile is good.I just have packed just need to assign that into the cell dot x equals add the current index and I need to expose the property for that cell and now input an item in todo list.Last thing is when you press delete it actually gets a callback all the way upto section controller expose this delete btn in the property make it non -atomic read only and its going to be on when the user presses on the button in terms of abstraction we're at the section controller level each cell need its own controller create a cell controller to delete .Create a controller on the Ns Object and creates an array of thse and also instantiate the cell controller for each of the to do items .
  
