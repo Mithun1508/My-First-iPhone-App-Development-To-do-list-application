@@ -46,6 +46,5 @@
      iT is very immutable we can create a new copy of the data and send it to an IG lISt kit so it will update the items
 
   Coming back, we add some textfiled.text to the new array and call update on self for the upadte we can simply call an adapter which performs update and add it to the initializer . we're to create  a breakpoint here adds a new item .Here the identifier is todo's .everytime its asking for the objects its just returns new items that will trigger the framework to update the section then it would populate new items under the section controller for agile is good.I just have packed just need to assign that into the cell dot x equals add the current index and I need to expose the property for that cell and now input an item in todo list.Last thing is when you press delete it actually gets a callback all the way upto section controller expose this delete btn in the property make it non -atomic read only and its going to be on when the user presses on the button in terms of abstraction we're at the section controller level each cell need its own controller create a cell controller to delete .Create a controller on the Ns Object and creates an array of thse and also instantiate the cell controller for each of the to do items .
-  
-  # What We did so far:
-     we created like callback block for triggering the updates it;s going to be instantiated in the top level view controller and then pass that on to the section controller which will be passed into the cell controller 
+ 
+ What We did so far: we created like callback block for triggering the updates it;s going to be instantiated in the top level view controller and then pass that on to the section controller which will be passed into the cell controller 
