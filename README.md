@@ -25,7 +25,7 @@
 
 1) First thing to do is Download and Open up Xcode (which is Apple's developer program) for making ios Applications
 
-2) Create Xcode Project -> Single View Application ->todo-list in the product Name . I chose to go Over with Objective C over swift(only declartive way )which provides support for Cross platform development and performance infrastructure code
+2) Create Xcode Project -> Single View Application ->todo-list in the product Name . chose to go Over with Objective C over swift(only declartive way )which provides support for Cross platform development and performance infrastructure code
 
 3) click on Build and Run then headover to the View Controller change the Uik controller to the UI navigation controller for Navigation Support going to initilise the constructor and then create the new UI view controller for the todolist container and then creates a new sub class for this Was given self.navigationItem.title = "@Todos" and then run the Application then I can see the title star showing up and we also give a bg color to make it white
 
