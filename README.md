@@ -18,8 +18,24 @@
 
 6) Networking images 
 
-7) Scroll View
+7) Scroll View       
 
+# Features
+
+1)Login and Registration
+
+2)Add, Edit and Delete Tasks
+
+3) Notification of Due Tasks
+
+--> Authentication: For Login and Registration
+ 
+--> Realtime Database: To manage tasks
+
+# Design Patterns
+1) MVVM is used in development of this project
+ 
+2) SOLID principles are applied to make application TESTABLE.
  
 # STEPS:
 
